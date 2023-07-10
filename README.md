@@ -20,7 +20,7 @@ git clone https://github.com/MartinSVK12/bta-example-mod.git
    Then click on the plus icon and select Gradle. In the `Tasks and Arguments` field enter `build`  
    Running it will build your finished jar files and put them in `build/libs/`
 
-4. Change the `Main Class` of the `Minecraft Client` run configuration to `org.quiltmc.loader.impl.launch.knot.KnotClient`. Change the `Main Class` of the `Minecraft Server` run configuration to `org.quiltmc.loader.impl.launch.knot.KnotServer`.
+4. Change the `Main Class` of the `Minecraft Client` run configuration to `org.quiltmc.loader.impl.launch.knot.KnotClient`. Change the `Main Class` of the `Minecraft Server` run configuration to `org.quiltmc.loader.impl.launch.knot.KnotServer`. Add `-Dloader.skipMcProvider=true` to `VM options` (above main class) of both.
 
 5. Open `File > Settings` and head to `Build, Execution, Development > Build Tools > Gradle`  
    Change `Build and run using` and `Run tests using` to `IntelliJ IDEA`
