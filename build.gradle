@@ -79,20 +79,12 @@ java {
 	withSourcesJar()
 }
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
 	options.release.set 8
 }
 
 jar {
 	from("LICENSE") {
 		rename { "${it}_${archivesBaseName}" }
-	}
-}
-
-processResources {
-	inputs.property "version", version
-
-	filesMatching("fabric.mod.json") {
-		expand "version": version
 	}
 }
