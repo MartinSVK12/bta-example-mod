@@ -1,6 +1,6 @@
 # Minimal Mod
 
-Babric example mod, without the examples feat. Kotlin.
+Quilt example mod, without the examples feat. Kotlin.
 
 ## Prerequisites
 - JDK for Java 17 ([Eclipse Temurin](https://adoptium.net/temurin/releases/) recommended)
