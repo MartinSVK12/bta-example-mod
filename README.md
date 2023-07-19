@@ -1,5 +1,7 @@
 # Minimal Mod
 
+# Use the Quilt version instead, this is outdated and will probably not work!
+
 Babric example mod, without the examples.
 
 ## Prerequisites
