@@ -67,7 +67,7 @@ dependencies {
 	modImplementation("quilt-loader:quilt-loader:${project.loader_version}")
 	// Helper library
 	// If you do not need Halplibe you can comment this line out or delete this line
-	//modImplementation "bta-halplibe:halplibe:${project.halplibe_version}"
+	modImplementation "bta-halplibe:halplibe:${project.halplibe_version}"
 
 	modImplementation("net.fabricmc:fabric-language-kotlin:${project.flk_version}+kotlin.${project.kotlin_version}") {
 		exclude(group: "net.fabricmc", module: "fabric-loader")
