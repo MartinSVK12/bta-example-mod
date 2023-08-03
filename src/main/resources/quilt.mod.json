@@ -3,7 +3,10 @@
   "quilt_loader": {
     "entrypoints": {
       "main": [
-        "turniplabs.examplemod.ExampleMod"
+        {
+          "adapter": "kotlin",
+          "value": "turniplabs.examplemod.ExampleModKt::init"
+        }
       ]
     },
     "group": "turniplabs",
